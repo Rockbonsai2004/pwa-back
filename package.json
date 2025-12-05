@@ -1,0 +1,32 @@
+{
+  "name": "pwa-back",
+  "version": "1.0.0",
+  "description": "Backend para Rapper Dashboard PWA - Sistema de compras offline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "pwa",
+    "backend",
+    "express",
+    "mongodb",
+    "offline-sync"
+  ],
+  "author": "Alvarado Fausto Ari Johan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
